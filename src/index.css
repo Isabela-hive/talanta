@@ -31,6 +31,7 @@ code {
 
 .social-media-links {
   position: fixed;
+
   top: 10px;
   left: 10px;
   display: flex;
@@ -43,6 +44,7 @@ code {
   font-size: 20px;
   margin-left: 20px;
   text-decoration: none;
+  font-size: 16px;
 }
 .social-media-links a.facebook {
   color: blue;
@@ -67,6 +69,8 @@ code {
   display: flex;
   align-items: center;
   z-index: 999;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .web-links a {
@@ -79,6 +83,20 @@ code {
 .web-links .active {
   font-weight: bold;
   color: var(--error);
+}
+@media screen and (max-width: 768px) {
+  /* Styles for smaller devices */
+  .web-links {
+    top: 60px;
+    right: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .web-links a {
+    margin-top: 10px;
+    color: var(--lightWhite);
+  }
 }
 .maincontent {
   position: absolute;
@@ -116,18 +134,18 @@ code {
 .content {
   display: flex;
   flex-direction: column;
-
   position: absolute;
   top: 22%;
-  left: 45%;
-
+  left: 50%;
+  transform: translateX(-50%);
   color: var(--beige);
 }
 .hometext {
   text-transform: uppercase;
   font-weight: 700;
   color: green;
-  font-size: 25px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 .hometext span {
   color: white;
@@ -149,8 +167,9 @@ code {
   border-radius: 10px;
 }
 .bigText {
-  font-size: 90%;
+  font-size: 1rem;
   color: var(--beige);
+  margin-top: 1rem;
 }
 .btn {
   padding: 8px 10px;
@@ -159,7 +178,7 @@ code {
   border-radius: 20px;
   cursor: pointer;
   width: 40%;
-
+  margin-top: 1rem;
   background-color: transparent;
 }
 .footer {
@@ -171,6 +190,8 @@ code {
   bottom: 0;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .mOy {
   position: absolute;
@@ -178,6 +199,6 @@ code {
 }
 .mOy img {
   height: 80px;
-  width: 100%;
+  width: auto;
   margin-right: 20px;
 }

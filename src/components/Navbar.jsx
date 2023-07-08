@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import './styles/navbar.css';
+import logo from '../images/loho.png';
 
 const Navbar = () => {
   const [dropdown, setDropDown] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="images/loho.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
       <div className="navbar-links">
         <NavLink exact to="/talentsearch" activeClassName="active">

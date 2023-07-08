@@ -40,6 +40,18 @@
   color: var(--black);
   margin-left: 20px;
 }
+@media screen and (max-width: 768px) {
+  .navbar-links a {
+    font-size: 12px;
+  }
+  .login-button {
+    padding: 5px;
+  }
+  .search-icon {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
 
 .navbar-links a.active {
   color: var(--error);
@@ -64,7 +76,6 @@
 }
 
 .navbar-icons .login-button {
-  padding: 5px 10px;
   border: 1px solid var(--error);
   color: var(--error);
   border-radius: 20px;
