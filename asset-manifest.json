@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/talanta/static/css/main.00d96c53.css",
+    "main.js": "/talanta/static/js/main.24f3be4b.js",
+    "index.html": "/talanta/index.html",
+    "main.00d96c53.css.map": "/talanta/static/css/main.00d96c53.css.map",
+    "main.24f3be4b.js.map": "/talanta/static/js/main.24f3be4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00d96c53.css",
+    "static/js/main.24f3be4b.js"
+  ]
+}
