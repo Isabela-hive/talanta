@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaYoutube,
 } from 'react-icons/fa';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 import './App.css';
 import Navbar from './components/Navbar';
 import Splash from './components/splash';
@@ -69,8 +70,13 @@ const App = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <div className="hometext">
-            Under 19 Tournament <br />
-            <span>Round 1 of 16</span>
+            Under 19 Tournament{' '}
+            <i>
+              {' '}
+              <AiOutlineArrowRight />
+            </i>{' '}
+            <br />
+            <span>Round 1 of 16 </span>
           </div>
           <div className="slide1"></div>
           <div className="slide2"></div>
@@ -79,7 +85,22 @@ const App = () => {
               Identifying, Nurturing, &<br></br> Monetizing Talents
             </h1>
           </div>
-          <button className="btn">Learn more</button>
+          <button className="btn">
+            Learn more
+            <i
+              className="arrow"
+              style={{
+                fontSize: '20px',
+                backgroundColor: 'red',
+                borderRadius: '50%',
+                padding: '5px',
+                alignItems: 'center',
+                marginLeft: '5px',
+              }}
+            >
+              <AiOutlineArrowRight />
+            </i>{' '}
+          </button>
         </motion.div>
 
         <footer className="footer">
