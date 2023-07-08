@@ -10,6 +10,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Splash from './components/splash';
 import { motion } from 'framer-motion';
+import pic from './pic.jpg';
 
 const App = () => {
   return (
@@ -56,7 +57,7 @@ const App = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <img src="/images/pic.jpg" alt="" />
+          <img src={pic} alt="" />
           <div className="tint"></div>
         </motion.div>
 
