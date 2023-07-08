@@ -42,7 +42,8 @@
 }
 @media screen and (max-width: 768px) {
   .navbar-links a {
-    font-size: 12px;
+    font-size: 70%;
+    margin-left: 1%;
   }
   .login-button {
     padding: 5px;

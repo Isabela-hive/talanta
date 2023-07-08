@@ -84,20 +84,7 @@ code {
   font-weight: bold;
   color: var(--error);
 }
-@media screen and (max-width: 768px) {
-  /* Styles for smaller devices */
-  .web-links {
-    top: 60px;
-    right: 10px;
-    flex-direction: column;
-    align-items: flex-end;
-  }
 
-  .web-links a {
-    margin-top: 10px;
-    color: var(--lightWhite);
-  }
-}
 .maincontent {
   position: absolute;
   top: 7%;
@@ -169,7 +156,7 @@ code {
 .bigText {
   font-size: 1rem;
   color: var(--beige);
-  margin-top: 1rem;
+  margin-top: 0.2rem;
 }
 .btn {
   padding: 8px 10px;
@@ -201,4 +188,38 @@ code {
   height: 80px;
   width: auto;
   margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  /* Styles for smaller devices */
+  .web-links {
+    top: 60px;
+    right: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .web-links a {
+    margin-top: 2px 4px 0 0;
+    color: var(--lightWhite);
+  }
+  .content {
+    margin-top: 3em;
+  }
+  .hometext {
+    font-size: 1em;
+  }
+  .hometext span {
+    font-size: 100%;
+  }
+  .slide1,
+  .slide2 {
+    height: 10%;
+  }
+  .bigText {
+    font-size: 80%;
+  }
+  .content {
+    left: 20%;
+    top: 30%;
+  }
 }
