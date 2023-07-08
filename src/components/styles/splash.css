@@ -1,0 +1,83 @@
+.splash .scroll-effect {
+  position: absolute;
+  bottom: 5%;
+  width: 60%;
+  overflow: hidden;
+}
+
+.line1,
+.line2,
+.line3 {
+  display: flex;
+  height: 5px;
+  width: 100%; /* Increase the width to accommodate the scrolling effect */
+  /* Increase the width to accommodate the scrolling effect */
+}
+
+.line1 {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    transparent,
+    green,
+    green,
+    transparent
+  );
+  animation: scroll 3s infinite linear;
+}
+
+.line2 {
+  margin-top: 8px; /* Adjust the distance between the lines */
+  background: linear-gradient(
+    90deg,
+    transparent,
+    transparent,
+    red,
+    red,
+    transparent
+  );
+  animation: scroll2 2s infinite linear;
+}
+.line3 {
+  margin-top: 8px; /* Adjust the distance between the lines */
+  background: linear-gradient(
+    90deg,
+    transparent,
+    transparent,
+    white,
+    white,
+    transparent,
+    transparent
+  );
+  animation: scroll 2s infinite linear;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+    opacity: 0.4;
+  }
+  40% {
+    transform: translateX(-30%);
+    opacity: 1;
+  }
+  70% {
+    transform: translateX(-50%);
+    opacity: 0.2;
+  }
+}
+
+@keyframes scroll2 {
+  0% {
+    transform: translateX(0%);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateX(-30%);
+    opacity: 1;
+  }
+  70% {
+    transform: translateX(-50%);
+    opacity: 0.2;
+  }
+}
