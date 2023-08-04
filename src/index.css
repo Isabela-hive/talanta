@@ -99,7 +99,7 @@ code {
   opacity: 1;
 }
 .maincontent img {
-  filter: grayscale(0.9);
+  filter: grayscale(0.01);
   height: 95%;
   width: 100%;
 
@@ -185,7 +185,7 @@ code {
   right: 0;
 }
 .mOy img {
-  height: 80px;
+  height: 70px;
   width: auto;
   margin-right: 20px;
 }

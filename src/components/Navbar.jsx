@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import './styles/navbar.css';
-import logo from '../images/loho.png';
+import logo from '../images/tltaHela.webp';
 
 const Navbar = () => {
   const [dropdown, setDropDown] = useState(false);

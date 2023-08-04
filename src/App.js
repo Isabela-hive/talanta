@@ -12,7 +12,7 @@ import Navbar from './components/Navbar';
 import Splash from './components/splash';
 import { motion } from 'framer-motion';
 import pic from './pic.jpg';
-import mlogo from './images/mOylogo.jpeg';
+import mlogo from './images/logo2.jpg';
 
 const App = () => {
   return (
