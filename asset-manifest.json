@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/talanta/static/css/main.6de83c15.css",
-    "main.js": "/talanta/static/js/main.1d58e378.js",
+    "main.css": "/talanta/static/css/main.960e316b.css",
+    "main.js": "/talanta/static/js/main.8a8dff7a.js",
+    "static/media/tltaHela.webp": "/talanta/static/media/tltaHela.1cdcde04ac69af287817.webp",
     "static/media/pic.jpg": "/talanta/static/media/pic.aef3dbe2a7b401e6e353.jpg",
-    "static/media/mOylogo.jpeg": "/talanta/static/media/mOylogo.4aa9f24316c4a991ab3d.jpeg",
     "index.html": "/talanta/index.html",
-    "main.6de83c15.css.map": "/talanta/static/css/main.6de83c15.css.map",
-    "main.1d58e378.js.map": "/talanta/static/js/main.1d58e378.js.map"
+    "main.960e316b.css.map": "/talanta/static/css/main.960e316b.css.map",
+    "main.8a8dff7a.js.map": "/talanta/static/js/main.8a8dff7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6de83c15.css",
-    "static/js/main.1d58e378.js"
+    "static/css/main.960e316b.css",
+    "static/js/main.8a8dff7a.js"
   ]
 }
